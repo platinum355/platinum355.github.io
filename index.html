@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    body{
+        background: #484848;
+    }
+    .button{
+        padding: 6px 10px 6px 10px;
+        background: #5295da;
+        margin-bottom: 10px;
+        width: fit-content;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        font-family: monospace;
+        font-size: 16px;
+        width: 190px;
+        text-align: center;
+    }
+</style>
+<script>
+    function open_link(src){
+        window.open(src)
+    }
+</script>
 <body>
-<a href="https://platinum355.github.io/store/index.html">Store DEMO</a>
-<a href="https://platinum355.github.io/infinitelist/index.html">InfiniteList DEMO</a>
+<div class="button" onclick="open_link('https://platinum355.github.io/store/index.html')">
+    Store DEMO
+</div>
+<div class="button" onclick="open_link('https://platinum355.github.io/infinitelist/index.html')">
+    InfiniteList DEMO
+</div>
 </body>
 </html>
